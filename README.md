@@ -4,7 +4,6 @@ PixelOne is a pixel art editor for Android focused on creating sprites, textures
 
 The idea started when I was trying to create a Minecraft PE texture and couldn't find a pixel art editor that matched what I needed. Most editors felt outdated or too generic, so I started building my own.
 
-![PixelOne Screenshot](screenshots/main.png)
 
 ## About
 
