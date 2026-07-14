@@ -1,81 +1,77 @@
 # PixelOne
 
-PixelOne is a pixel art editor for Android, focused on creating sprites, textures and small pixel art projects in a simple, straightforward way.
+![Kotlin](https://img.shields.io/badge/Kotlin-100%25-7F52FF?logo=kotlin&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![Release](https://img.shields.io/badge/Release-Aug%2010%2C%202026-blue)
 
-The idea started when I was trying to create a texture for Minecraft PE and couldn't find a pixel art editor that matched what I needed. Most editors out there felt outdated or too generic, so I decided to build my own.
+PixelOne is a pixel art editor for Android, made for creating sprites, textures and small pixel art projects in a simple way.
 
-## About
+> The idea came up when I was trying to make a texture for Minecraft PE and couldn't find an editor that really fit what I needed. Most of the ones I tried felt outdated or too generic, so I ended up building my own.
 
-PixelOne is made for artists, developers and anyone who wants to create pixel art without dealing with unnecessary complexity.
+It's for artists, developers, or really anyone who wants to make pixel art without dealing with unnecessary complexity. You open it, you draw, that's it.
 
-The project is still in development and will receive updates, improvements and new features over time.
+The project is still in development and will keep getting updates and new features over time.
 
 ## Features
 
-- Pixel art canvas
-- Custom canvas sizes
-- Pencil tool
-- Eraser tool
-- Paint bucket
-- Color picker
-- Color palette
-- Zoom
-- Grid view
-- Undo and redo
-- Import images
-- Export PNG and JPG files
-- Sprite Sheet Generator
+| Tool | Description |
+|---|---|
+| ✏️ Pencil | Basic drawing tool |
+| 🧹 Eraser | Clear pixels |
+| 🪣 Paint bucket | Fill areas fast |
+| 🎯 Color picker | Grab any color from the canvas |
+| 🎨 Color palette | Manage your colors |
+| 🔍 Zoom | Get in close for detail work |
+| 🔳 Grid view | Toggle the pixel grid |
+| ↩️ Undo/redo | Full history support |
+| 📥 Import | Bring in existing images |
+| 📤 Export | Save as PNG or JPG |
+| 🖼️ Sprite Sheet Generator | Combine multiple images into one sheet |
 
-## Sprite Sheet Generator
+Canvas size is fully customizable, up to a max of `4096x4096`.
 
-PixelOne includes a sprite sheet generator that lets you select multiple images and generate a `sprite_sheet.png` file from them.
+### Sprite Sheet Generator
 
-Generated sprite sheets are saved in:
-
-```
-/0/Sprite Sheet
-```
-
-The generator also creates JSON data for the sprite sheet.
-
-## Limits
-
-The maximum supported canvas size is:
+Select multiple images and PixelOne stitches them into a single `sprite_sheet.png`, along with a JSON file describing the layout, ready to plug into a game engine.
 
 ```
-4096x4096
+Output: /0/Sprite Sheet
 ```
 
-Some devices may experience performance issues with very large projects.
+> ⚠️ Very large projects can slow down on lower-end devices. Optimization is ongoing.
 
 ## Development
 
-PixelOne is built with **Kotlin** for Android (fully migrated from Java).
+<details>
+<summary><strong>Java → Kotlin migration and why the release got delayed</strong> (click to expand)</summary>
 
-Development has run into several technical challenges along the way — from the full migration of the codebase from Java to Kotlin to performance and stability adjustments across the editor. Because of that, the originally planned release date was pushed back to make sure the app ships in a more stable and reliable state.
+<br>
 
-The project remains under active development, with more features planned, including layers support.
+PixelOne is written in **Kotlin** now, it used to be Java, but the whole codebase got migrated over.
 
-## Release
+I won't lie, development has had its share of problems, a lot of them actually. Between the Java to Kotlin migration and fixing bugs and performance issues along the way, things took longer than planned to get stable. Because of that, the release date got pushed back.
 
-Due to several issues encountered during development, the release date has been rescheduled.
+</details>
 
-**New release date: 08/10/2026**
+**New release date: August 10, 2026**
 
-The release will include the APK, changelog updates and future improvements through GitHub.
-
-## Contributing
-
-Suggestions, bug reports and feedback are welcome through GitHub Issues.
+The release will include the APK, a changelog, and future updates through GitHub.
 
 ## Roadmap
 
-Planned features:
+- [ ] **Layers** — separate outlines, base colors, shading and details into stacked layers instead of one flat canvas
+- [ ] **Move tool** — shift a selection around the canvas
+- [ ] **Mirror tool** — flip your art horizontally or vertically, great for symmetrical sprites
+- [ ] **Stamp tool** — save a piece of art and drop copies of it wherever you need
+- [ ] **Colors panel improvements** — better organization, custom palettes
+- [ ] **Performance work** — keep bigger canvases and sprite sheets running smoothly
+- [ ] Whatever comes up based on real usage and feedback
 
-- Layers support
-- More editing tools
-- Ongoing improvements based on user feedback
+## Contributing
+
+Suggestions, bug reports and feedback are welcome, just open a [GitHub Issue](../../issues).
 
 ## License
 
-No license has been added. All rights reserved.
+No license added yet. All rights reserved.
