@@ -4,6 +4,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Release](https://img.shields.io/badge/Release-Aug%2010%2C%202026-blue)
+![UI Refactor](https://img.shields.io/badge/UI%20Refactor-20%25-orange)
 
 PixelOne is a pixel art editor for Android, made for creating sprites, textures and small pixel art projects in a simple way.
 
@@ -57,6 +58,54 @@ I won't lie, development has had its share of problems, a lot of them actually. 
 **New release date: August 10, 2026**
 
 The release will include the APK, a changelog, and future updates through GitHub.
+
+## Massive UI Refactor
+
+PixelOne is currently going through its biggest refactor since development started.
+
+The previous interface worked, but over time it accumulated a lot of design problems. Some screens felt inconsistent, certain layouts were difficult to use, and the overall appearance looked outdated—almost like software from the early 2000s. While functional, it didn't match the quality or experience I want PixelOne to deliver.
+
+Instead of applying small visual fixes, a large part of the application is being redesigned from the ground up. This refactor focuses on creating a cleaner, more modern interface while also improving the internal structure of the UI, making future updates easier to develop and maintain.
+
+### Current Progress
+
+The UI refactor is currently around **20% complete**.
+
+The estimated completion date is **July 20, 2026**. This may change slightly if unexpected issues are found during development, but that's the current target.
+
+Although this work increases development time, it provides a much stronger foundation for future features and significantly improves the overall user experience.
+
+### What's Changing?
+
+- Completely redesigned interface
+- Modern and minimalistic icon set
+- Cleaner layouts with better spacing and organization
+- Better navigation and workflow
+- Improved responsiveness across different screen sizes
+- More consistent visual language throughout the application
+- Better use of screen space, giving more focus to the canvas
+
+### New Design Philosophy
+
+The new interface is designed around simplicity.
+
+Instead of filling the screen with unnecessary buttons and clutter, PixelOne aims to keep the workspace clean, allowing the canvas to remain the center of attention.
+
+The redesign follows a modern flat style with improved usability, smoother interactions, and a more polished overall appearance.
+
+### Customizable Themes
+
+PixelOne will support multiple appearance themes:
+
+- 🌑 Dark
+- 🌌 Midnight Blue
+- ☀️ Light
+
+More themes may be added in future updates based on community feedback.
+
+The goal is to let every user choose the appearance that feels most comfortable, whether working during the day or late at night.
+
+> ⚠️ This refactor affects a large portion of the application's interface. While it delays development slightly, it creates a much stronger foundation for upcoming features such as Layers, the Move Tool, Animation improvements, and many other future updates.
 
 ## Roadmap
 
