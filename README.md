@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Release](https://img.shields.io/badge/Release-Aug%2010%2C%202026-blue)
-![UI Refactor](https://img.shields.io/badge/UI%20Refactor-20%25-orange)
+![UI Refactor](https://img.shields.io/badge/UI%20Refactor-30%25-orange)
 
 PixelOne is a pixel art editor for Android, made for creating sprites, textures and small pixel art projects in a simple way.
 
@@ -69,7 +69,7 @@ Instead of applying small visual fixes, a large part of the application is being
 
 ### Current Progress
 
-The UI refactor is currently around **20% complete**.
+The UI refactor is currently around **30% complete**.
 
 The estimated completion date is **July 20, 2026**. This may change slightly if unexpected issues are found during development, but that's the current target.
 
