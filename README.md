@@ -10,7 +10,6 @@
 ![Release](https://img.shields.io/badge/Release-Aug%2010%2C%202026-blue)
 ![UI Refactor](https://img.shields.io/badge/UI%20Refactor-90%25-orange)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)
-![Made with](https://img.shields.io/badge/Made%20with-Termux%20%26%20Stubbornness-critical)
 
 </div>
 
