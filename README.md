@@ -23,15 +23,7 @@ It's for artists, developers, or really anyone who wants to make pixel art witho
 
 The project is still in development and will keep getting updates and new features over time.
 
-<div align="center">
-
-### 📊 Refactor Progress
-
-![Progress](https://progress-bar.dev/90/?title=UI%20Refactor&width=400&color=babaca)
-
-</div>
-
-> 🐌 **Real talk:** the refactor was supposed to land on July 20. It's July 21 and it's sitting at 90%, not 100%. Yeah, I'm late — turns out "just polishing" always takes longer than expected. No excuses, just a dev who underestimated his own to-do list. It's close though, promise.
+> **Update (July 21, 2026):** the UI refactor was originally targeted for July 20 and is currently at 90%. The deadline was missed and the remaining 10% is still being finished.
 
 ---
 
@@ -106,17 +98,15 @@ The release will include the APK, a changelog, and future updates through GitHub
 
 PixelOne is currently going through its biggest refactor since development started.
 
-The previous interface worked, but over time it accumulated a lot of design problems. Some screens felt inconsistent, certain layouts were difficult to use, and the overall appearance looked outdated — almost like software from the early 2000s. While functional, it didn't match the quality or experience I want PixelOne to deliver.
+The previous interface worked, but over time it accumulated a lot of design problems. Some screens felt inconsistent, certain layouts were difficult to use, and the overall appearance looked outdated, almost like software from the early 2000s. While functional, it didn't match the quality or experience I want PixelOne to deliver.
 
 Instead of applying small visual fixes, a large part of the application is being redesigned from the ground up. This refactor focuses on creating a cleaner, more modern interface while also improving the internal structure of the UI, making future updates easier to develop and maintain.
 
 ### 📈 Current Progress
 
-```
-[██████████████████░░] 90%
-```
+**Status: 90% complete**
 
-The refactor was originally targeted for **July 20, 2026**. It's now past that date and still at 90% — the last stretch (theme polish + responsiveness edge cases) is what's holding it up. Closing this out is the top priority right now.
+The refactor was originally targeted for **July 20, 2026**. That date has passed and the last stretch, theme polish and responsiveness edge cases, is what remains before it's fully done.
 
 Although this work increases development time, it provides a much stronger foundation for future features and significantly improves the overall user experience.
 
@@ -142,11 +132,11 @@ The redesign follows a modern flat style with improved usability, smoother inter
 
 PixelOne will support multiple appearance themes:
 
-| Theme | Vibe |
+| Theme | Description |
 |---|---|
 | 🌑 Dark | Default, easy on the eyes |
-| 🌌 Midnight Blue | Cool-toned, moody |
-| ☀️ Light | Daytime / high-brightness use |
+| 🌌 Midnight Blue | Cool toned |
+| ☀️ Light | For daytime and high brightness use |
 
 More themes may be added in future updates based on community feedback.
 
@@ -158,12 +148,12 @@ The goal is to let every user choose the appearance that feels most comfortable,
 
 ## 🗺️ Roadmap
 
-- [ ] **Layers** — separate outlines, base colors, shading and details into stacked layers instead of one flat canvas
-- [ ] **Move tool** — shift a selection around the canvas
-- [ ] **Mirror tool** — flip your art horizontally or vertically, great for symmetrical sprites
-- [ ] **Stamp tool** — save a piece of art and drop copies of it wherever you need
-- [ ] **Colors panel improvements** — better organization, custom palettes
-- [ ] **Performance work** — keep bigger canvases and sprite sheets running smoothly
+- [ ] **Layers**: separate outlines, base colors, shading and details into stacked layers instead of one flat canvas
+- [ ] **Move tool**: shift a selection around the canvas
+- [ ] **Mirror tool**: flip your art horizontally or vertically, great for symmetrical sprites
+- [ ] **Stamp tool**: save a piece of art and drop copies of it wherever you need
+- [ ] **Colors panel improvements**: better organization, custom palettes
+- [ ] **Performance work**: keep bigger canvases and sprite sheets running smoothly
 - [ ] Whatever comes up based on real usage and feedback
 
 ---
@@ -175,6 +165,3 @@ Suggestions, bug reports and feedback are welcome, just open a [GitHub Issue](..
 ## 📄 License
 
 No license added yet. All rights reserved.
-
-<div align="center">
-</div>
