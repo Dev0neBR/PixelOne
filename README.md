@@ -8,7 +8,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Release](https://img.shields.io/badge/Release-Aug%2010%2C%202026-blue)
-![UI Refactor](https://img.shields.io/badge/UI%20Refactor-90%25-orange)
+![UI Refactor](https://img.shields.io/badge/UI%20Refactor-95%25-orange)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)
 
 </div>
@@ -23,7 +23,7 @@ It's for artists, developers, or really anyone who wants to make pixel art witho
 
 The project is still in development and will keep getting updates and new features over time.
 
-> **Update (July 21, 2026):** the UI refactor was originally targeted for July 20 and is currently at 90%. The deadline was missed and the remaining 10% is still being finished.
+> **Update (July 21, 2026):** the UI refactor was originally targeted for July 20 and is currently at 90%. The deadline was missed and the remaining 5% is still being finished.
 
 ---
 
@@ -104,7 +104,7 @@ Instead of applying small visual fixes, a large part of the application is being
 
 ### 📈 Current Progress
 
-**Status: 90% complete**
+**Status: 95% complete**
 
 The refactor was originally targeted for **July 20, 2026**. That date has passed and the last stretch, theme polish and responsiveness edge cases, is what remains before it's fully done.
 
