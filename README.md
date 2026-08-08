@@ -8,7 +8,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Release](https://img.shields.io/badge/Release-Aug%2010%2C%202026-blue)
-![UI Refactor](https://img.shields.io/badge/UI%20Refactor-95%25-orange)
+![UI Refactor](https://img.shields.io/badge/UI%20Refactor-100%25-brightgreen)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)
 
 </div>
@@ -23,7 +23,7 @@ It's for artists, developers, or really anyone who wants to make pixel art witho
 
 The project is still in development and will keep getting updates and new features over time.
 
-> **Update (July 21, 2026):** the UI refactor was originally targeted for July 20 and is currently at 90%. The deadline was missed and the remaining 5% is still being finished.
+> **Update (August 8, 2026):** the UI refactor is complete — 100%, including an improved window/layout system. Release is confirmed for **August 10, 2026**, no further delays.
 
 ---
 
@@ -33,6 +33,8 @@ The project is still in development and will keep getting updates and new featur
 - [Sprite Sheet Generator](#-sprite-sheet-generator)
 - [Development](#-development)
 - [Massive UI Refactor](#-massive-ui-refactor)
+- [Community](#-community)
+- [Project Status & Risks](#-project-status--risks)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -86,7 +88,7 @@ I won't lie, development has had its share of problems, a lot of them actually. 
 
 <div align="center">
 
-**🗓️ New release date: August 10, 2026**
+**🗓️ Release date: August 10, 2026 (confirmed, no more delays)**
 
 </div>
 
@@ -96,24 +98,25 @@ The release will include the APK, a changelog, and future updates through GitHub
 
 ## 🎨 Massive UI Refactor
 
-PixelOne is currently going through its biggest refactor since development started.
+PixelOne just went through its biggest refactor since development started.
 
 The previous interface worked, but over time it accumulated a lot of design problems. Some screens felt inconsistent, certain layouts were difficult to use, and the overall appearance looked outdated, almost like software from the early 2000s. While functional, it didn't match the quality or experience I want PixelOne to deliver.
 
-Instead of applying small visual fixes, a large part of the application is being redesigned from the ground up. This refactor focuses on creating a cleaner, more modern interface while also improving the internal structure of the UI, making future updates easier to develop and maintain.
+Instead of applying small visual fixes, a large part of the application was redesigned from the ground up. This refactor focused on creating a cleaner, more modern interface while also improving the internal structure of the UI, making future updates easier to develop and maintain.
 
 ### 📈 Current Progress
 
-**Status: 95% complete**
+**Status: 100% complete ✅**
 
-The refactor was originally targeted for **July 20, 2026**. That date has passed and the last stretch, theme polish and responsiveness edge cases, is what remains before it's fully done.
+The refactor is done, including a reworked window/layout system, theme polish, and responsiveness edge cases.
 
-Although this work increases development time, it provides a much stronger foundation for future features and significantly improves the overall user experience.
+This work took longer than expected, but it provides a much stronger foundation for future features and significantly improves the overall user experience.
 
-### 🔄 What's Changing?
+### 🔄 What's Changed
 
 - Completely redesigned interface
 - Modern and minimalistic icon set
+- Improved window/layout system
 - Cleaner layouts with better spacing and organization
 - Better navigation and workflow
 - Improved responsiveness across different screen sizes
@@ -142,7 +145,25 @@ More themes may be added in future updates based on community feedback.
 
 The goal is to let every user choose the appearance that feels most comfortable, whether working during the day or late at night.
 
-> ⚠️ This refactor affects a large portion of the application's interface. While it delays development slightly, it creates a much stronger foundation for upcoming features such as Layers, the Move Tool, Animation improvements, and many other future updates.
+---
+
+## 💬 Community
+
+A Discord server for PixelOne is planned, so users can share art, report bugs, and follow development more closely. It's not up yet, mostly a matter of finding the time/motivation to set it up, but it's on the list.
+
+---
+
+## ⚠️ Project Status & Risks
+
+Development doesn't always move at a constant pace, sometimes there are gaps of several days without commits or updates. That doesn't mean the project is abandoned, PixelOne is still alive and actively worked on.
+
+That said, there are real risks that could affect the project's future:
+
+- **Google's upcoming sideload restrictions**: Google has been rolling out stricter requirements for installing apps outside the Play Store, which could make distributing PixelOne as a standalone APK harder or impossible down the line.
+- **No budget for the Play Store**: publishing on the Google Play Store requires a one-time $25 registration fee, which I currently can't afford. Without it, PixelOne can't be officially published there.
+- **Hardware limitations**: my current PC can't run Android Studio properly, so development relies on a more limited setup. If the project has to stop, picking it back up in a proper environment could take a long time, realistically, possibly years.
+
+Because of this, there's a real chance development could pause or end at some point without much warning. If that happens, this README and the repo will reflect the project's status honestly.
 
 ---
 
@@ -154,6 +175,7 @@ The goal is to let every user choose the appearance that feels most comfortable,
 - [ ] **Stamp tool**: save a piece of art and drop copies of it wherever you need
 - [ ] **Colors panel improvements**: better organization, custom palettes
 - [ ] **Performance work**: keep bigger canvases and sprite sheets running smoothly
+- [ ] **Discord server**: official community space for feedback and updates
 - [ ] Whatever comes up based on real usage and feedback
 
 ---
