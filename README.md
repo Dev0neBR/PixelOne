@@ -46,7 +46,6 @@ The project is still in development and will keep getting updates and new featur
 | Tool | Description |
 |---|---|
 | ✏️ Pencil | Basic drawing tool |
-| 🧹 Eraser | Clear pixels |
 | 🪣 Paint bucket | Fill areas fast |
 | 🎯 Color picker | Grab any color from the canvas |
 | 🎨 Color palette | Manage your colors |
