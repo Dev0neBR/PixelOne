@@ -52,10 +52,13 @@ The project is still in development and will keep getting updates and new featur
 | 🎨 Color palette | Manage your colors |
 | 🔍 Zoom | Get in close for detail work |
 | 🔳 Grid view | Toggle the pixel grid |
+| 🔳 Grid size | Change the pixel grid size |
 | ↩️ Undo/redo | Full history support |
 | 📥 Import | Bring in existing images |
 | 📤 Export | Save as PNG or JPG |
 | 🖼️ Sprite Sheet Generator | Combine multiple images into one sheet |
+| ⚙️ Export settings | Export your custom settings |
+| ⚙️ Import settings | Import someone else's custom settings |
 
 Canvas size is fully customizable, up to a max of `4096x4096`.
 
