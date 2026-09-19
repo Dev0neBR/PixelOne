@@ -41,12 +41,11 @@ It's for artists, developers, or anyone who just wants to make pixel art without
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/canvas.png" width="420" alt="Canvas" /><br /><sub>Canvas</sub></td>
-    <td align="center"><img src="docs/screenshots/palette.png" width="420" alt="Color palette" /><br /><sub>Color palette</sub></td>
+    <td align="center"><img src="docs/screenshots/canvas.jpg" width="420" alt="Canvas" /><br /><sub>Canvas</sub></td>
+    <td align="center"><img src="docs/screenshots/palette.jpg" width="420" alt="Color palette" /><br /><sub>Color palette</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/sheet.png" width="420" alt="Sprite sheet generator" /><br /><sub>Sprite sheet generator</sub></td>
-    <td align="center"><img src="docs/screenshots/settings.png" width="420" alt="Settings" /><br /><sub>Settings</sub></td>
+    <td align="center"><img src="docs/screenshots/settings.jpg" width="420" alt="Settings" /><br /><sub>Settings</sub></td>
   </tr>
 </table>
 </div>
