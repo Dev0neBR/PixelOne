@@ -9,7 +9,7 @@ Open it, draw, done.
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-100%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Platform](https://img.shields.io/badge/Android-24%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Rebuilding%20from%20scratch-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20development-orange?style=for-the-badge)
 ![Release](https://img.shields.io/badge/Release-TBD-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=for-the-badge)
 
@@ -20,8 +20,9 @@ Open it, draw, done.
 ---
 
 > [!WARNING]
-> **The August 10 release did not happen, and there is no APK to download right now.**
-> PixelOne is being rebuilt from scratch. The full story is [below](#-what-happened-to-the-release).
+> **There is still no APK to download.** PixelOne is being rebuilt from scratch, piece by piece.
+> The core editor — canvas, tools, files — is up and working; the rest is listed in the [roadmap](#-roadmap).
+> The full story of why it's a rebuild at all is [below](#-what-happened-to-the-release).
 
 ## 👋 About
 
@@ -78,50 +79,52 @@ There is **no release date** for now. I'd rather not promise another one and mis
 | Splash screen | ✅ Done |
 | Custom pixel font | ✅ Done |
 | Sidebar | ✅ Done |
-| Canvas and drawing tools | 🚧 In progress |
-| Save and open files | ⏳ Planned |
+| Canvas and drawing tools | ✅ Done |
+| Save and open files | ✅ Done |
 | Sprite sheet generator | ⏳ Planned |
-| Settings and themes | ⏳ Planned |
+| Settings and themes | 🚧 In progress |
 
 ---
 
 ## ✨ Features
 
-What PixelOne is meant to do once the rewrite catches up:
+What's already working in the rewrite:
 
 | Tool | Description |
 |---|---|
 | ✏️ Pencil | Basic drawing tool |
 | 🪣 Paint bucket | Fill areas fast |
 | 🎯 Color picker | Grab any color from the canvas |
+| ✋ Move | Shift the whole canvas around while you work |
 | 🎨 Color palette | Manage your colors |
 | 🔍 Zoom | Get in close for detail work |
 | 🔳 Grid view | Toggle the pixel grid |
 | 📐 Grid size | Change the pixel grid size |
 | ↩️ Undo / redo | Full history support |
-| 📥 Import | Bring in existing images |
-| 📤 Export | Save as PNG or JPG |
-| 🖼️ Sprite sheet generator | Combine multiple images into one sheet |
-| ⚙️ Settings backup | Export and import your custom settings |
+| 📥 Import | Open an image from storage, or straight from another app's "Open with" |
+| 📤 Export | Save as PNG or JPG, from an in-app file browser |
 
 Canvas size is fully customizable, up to `4096x4096`.
 
-### 🧩 Sprite sheet generator
+What's still on the way:
 
-Pick multiple images and PixelOne stitches them into a single `sprite_sheet.png`, plus a JSON file describing the layout, ready to plug into a game engine.
+| Tool | Description |
+|---|---|
+| 🖼️ Sprite sheet generator | Combine multiple images into one sheet |
+| 🌗 Themes | More than one color scheme for the app itself |
+| 🔤 Font switcher | Pixel font, system font, or a custom one |
+| ⚙️ Settings backup | Export and import your custom settings |
 
 > [!TIP]
 > Very large projects can get slow on lower-end devices. Performance work is on the roadmap.
 
+### 🧩 Sprite sheet generator
+
+Planned: pick multiple images and PixelOne stitches them into a single `sprite_sheet.png`, plus a JSON file describing the layout, ready to plug into a game engine.
+
 ### 🌗 Themes
 
-| Theme | Description |
-|---|---|
-| 🌑 Dark | Default, easy on the eyes |
-| 🌌 Midnight Blue | Cool toned |
-| ☀️ Light | For daytime and high brightness |
-
-More themes may show up later, depending on feedback.
+The editor is dark-mode only for now (with a normal/dark checkerboard toggle for transparency). A full theme picker — Midnight Blue, Light, and whatever else comes up — is still planned.
 
 ### 🔤 Fonts
 
@@ -131,13 +134,13 @@ The interface uses a pixel font by default. A settings option to switch between 
 
 ## ⚠️ Project status and risks
 
-Development doesn't move at a steady pace. Sometimes there are days without commits, and that has been extra true lately. It doesn't mean the project is dead, it means I'm slow.
+Development doesn't move at a steady pace. Sometimes there are days without commits. It doesn't mean the project is dead, it means I'm slow.
 
 There are some real risks too:
 
 - **Google's sideload restrictions.** Stricter rules for installing apps outside the Play Store could make distributing a standalone APK harder, or impossible, down the line.
 - **No budget for the Play Store.** Publishing there needs a one-time $25 fee, which I can't afford right now.
-- **Hardware.** My PC can't run Android Studio properly, so I work with a more limited setup. If I have to stop, picking it up again in a proper environment could take a long time.
+- **Hardware.** My PC can't run Android Studio properly, so I work with a more limited setup (no Gradle, building straight from Termux). If I have to stop, picking it up again in a proper environment could take a long time.
 
 If development pauses or ends, this README will say so honestly.
 
@@ -146,14 +149,15 @@ If development pauses or ends, this README will say so honestly.
 ## 🗺️ Roadmap
 
 - [x] Rewrite: splash, pixel font, sidebar
-- [ ] Canvas with pixel drawing
-- [ ] Save and open files
+- [x] Canvas with pixel drawing, up to 4096x4096
+- [x] Save and open files
 - [ ] Sprite sheet generator
 - [ ] **Layers** for outlines, base colors, shading and details
-- [ ] **Move tool** to shift a selection around
 - [ ] **Mirror tool** for horizontal and vertical symmetry
 - [ ] **Stamp tool** to save a piece of art and drop copies of it
 - [ ] Better colors panel and custom palettes
+- [ ] App themes and a font switcher
+- [ ] Settings backup (export/import)
 - [ ] Performance work for big canvases and sheets
 - [ ] Discord server (I still haven't set it up, sorry)
 - [ ] Whatever comes up from real usage and feedback
