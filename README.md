@@ -9,20 +9,20 @@ Open it, draw, done.
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-100%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Platform](https://img.shields.io/badge/Android-24%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20development-orange?style=for-the-badge)
-![Release](https://img.shields.io/badge/Release-TBD-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-V1%20Release%20Candidate-success?style=for-the-badge)
+![Release](https://img.shields.io/badge/Target-Early%202027-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=for-the-badge)
 
-[Screenshots](#-screenshots) · [Features](#-features) · [What happened](#-what-happened-to-the-release) · [Roadmap](#-roadmap) · [Contributing](#-contributing)
+[Screenshots](#-screenshots) · [Features](#-features) · [What happened](#-what-happened-to-the-release) · [Roadmap](#%EF%B8%8F-roadmap) · [Contributing](#-contributing)
+
+**If this project looks like something you'd use, a ⭐ star really helps it get found. Costs nothing, means a lot.**
 
 </div>
 
 ---
 
-> [!WARNING]
-> **There is still no APK to download.** PixelOne is being rebuilt from scratch, piece by piece.
-> The core editor — canvas, tools, files — is up and working; the rest is listed in the [roadmap](#-roadmap).
-> The full story of why it's a rebuild at all is [below](#-what-happened-to-the-release).
+> [!NOTE]
+> **No public APK yet** — PixelOne is in its final stretch before a first public release. The editor itself is done: canvas, tools, files, palettes, sprite sheets. What's left is polish, testing and bug hunting. See the [target date](#-roadmap) below.
 
 ## 👋 About
 
@@ -37,7 +37,7 @@ It's for artists, developers, or anyone who just wants to make pixel art without
 ## 📸 Screenshots
 
 > [!NOTE]
-> These screenshots are from an older version. The rewrite will look a bit different, but the general idea is the same.
+> These screenshots are from an older version. The rewrite looks a bit different, but the general idea is the same — fresh ones go up closer to release.
 
 <div align="center">
 <table>
@@ -66,9 +66,9 @@ Then release day came. And I deleted the APK together with the whole project. Sa
 
 <br>
 
-I'm rebuilding PixelOne from zero, using the bits of old code I still have as reference. This time the code is cleaner, the structure is organized by topic, and the whole thing is designed to run on as many devices as possible instead of just mine.
+I rebuilt PixelOne from zero, using the bits of old code I still had as reference. The code is cleaner this time, the structure is organized by topic, and the whole thing is built to run on as many devices as possible instead of just mine.
 
-There is **no release date** for now. I'd rather not promise another one and miss it again. What I can promise is that the new version is going to be better than the one I lost.
+It took longer than I'd like to admit, but the editor is now feature-complete for a first release. What's left is testing, polishing rough edges, and squashing whatever bugs show up along the way — not new features.
 
 </details>
 
@@ -80,15 +80,16 @@ There is **no release date** for now. I'd rather not promise another one and mis
 | Custom pixel font | ✅ Done |
 | Sidebar | ✅ Done |
 | Canvas and drawing tools | ✅ Done |
+| Mirror / symmetry tool | ✅ Done |
+| Stamp tool (copy, paste, flip, rotate) | ✅ Done |
 | Save and open files | ✅ Done |
-| Sprite sheet generator | ⏳ Planned |
-| Settings and themes | 🚧 In progress |
+| Sprite sheet generator | ✅ Done |
+| Core settings (grid, checkerboard, layout) | ✅ Done |
+| **V1 editor** | ✅ **Feature complete** |
 
 ---
 
 ## ✨ Features
-
-What's already working in the rewrite:
 
 | Tool | Description |
 |---|---|
@@ -96,39 +97,20 @@ What's already working in the rewrite:
 | 🪣 Paint bucket | Fill areas fast |
 | 🎯 Color picker | Grab any color from the canvas |
 | ✋ Move | Shift the whole canvas around while you work |
-| 🎨 Color palette | Manage your colors |
+| 🔺 Shapes | Line, square and circle, filled or outlined |
+| 🪞 Mirror | Draw with horizontal, vertical or diagonal symmetry |
+| 📋 Stamp | Copy a selection and drop flipped/rotated copies of it |
+| 🎨 Color palette | Curated color decks, plus your own recently-used colors |
 | 🔍 Zoom | Get in close for detail work |
 | 🔳 Grid view | Toggle the pixel grid |
-| 📐 Grid size | Change the pixel grid size |
+| 📐 Grid & canvas size | Fully customizable, up to `4096x4096` |
 | ↩️ Undo / redo | Full history support |
 | 📥 Import | Open an image from storage, or straight from another app's "Open with" |
 | 📤 Export | Save as PNG or JPG, from an in-app file browser |
-
-Canvas size is fully customizable, up to `4096x4096`.
-
-What's still on the way:
-
-| Tool | Description |
-|---|---|
-| 🖼️ Sprite sheet generator | Combine multiple images into one sheet |
-| 🌗 Themes | More than one color scheme for the app itself |
-| 🔤 Font switcher | Pixel font, system font, or a custom one |
-| ⚙️ Settings backup | Export and import your custom settings |
+| 🖼️ Sprite sheet generator | Combine multiple images into one packed sheet |
 
 > [!TIP]
-> Very large projects can get slow on lower-end devices. Performance work is on the roadmap.
-
-### 🧩 Sprite sheet generator
-
-Planned: pick multiple images and PixelOne stitches them into a single `sprite_sheet.png`, plus a JSON file describing the layout, ready to plug into a game engine.
-
-### 🌗 Themes
-
-The editor is dark-mode only for now (with a normal/dark checkerboard toggle for transparency). A full theme picker — Midnight Blue, Light, and whatever else comes up — is still planned.
-
-### 🔤 Fonts
-
-The interface uses a pixel font by default. A settings option to switch between the pixel font, the system font and a custom font is planned.
+> Very large projects can get slow on lower-end devices. Performance tuning is planned for a later update — see [Roadmap](#%EF%B8%8F-roadmap).
 
 ---
 
@@ -148,16 +130,30 @@ If development pauses or ends, this README will say so honestly.
 
 ## 🗺️ Roadmap
 
+### V1 — the editor itself
+
 - [x] Rewrite: splash, pixel font, sidebar
 - [x] Canvas with pixel drawing, up to 4096x4096
+- [x] Mirror tool and stamp tool
+- [x] Sprite sheet generator
 - [x] Save and open files
-- [ ] Sprite sheet generator
+- [x] Core settings
+
+**Target: first public build around early 2027.** No fixed day yet on purpose — that window is there to actually test on different devices, chase down bugs, and polish rough edges instead of rushing it out and regretting it (see [what happened last time](#-what-happened-to-the-release)).
+
+### V2 and beyond
+
+Everything here is a "later" problem, not a blocker for V1:
+
 - [ ] **Layers** for outlines, base colors, shading and details
-- [ ] **Mirror tool** for horizontal and vertical symmetry
-- [ ] **Stamp tool** to save a piece of art and drop copies of it
-- [ ] Better colors panel and custom palettes
-- [ ] App themes and a font switcher
-- [ ] Settings backup (export/import)
+- [ ] **Animation / frames**, with onion skinning
+- [ ] Free-form selection (lasso, select-by-color)
+- [ ] Whole-canvas flip and rotate (today it's just the stamp selection)
+- [ ] Adjustable brush size (today it's 1px only)
+- [ ] Custom, savable color palettes (import/export)
+- [ ] App themes beyond dark mode
+- [ ] Font switcher (pixel / system / custom)
+- [ ] Settings & palette backup (export/import)
 - [ ] Performance work for big canvases and sheets
 - [ ] Discord server (I still haven't set it up, sorry)
 - [ ] Whatever comes up from real usage and feedback
@@ -167,6 +163,8 @@ If development pauses or ends, this README will say so honestly.
 ## 🤝 Contributing
 
 Suggestions, bug reports and feedback are welcome. Just open a [GitHub Issue](../../issues).
+
+Found this project useful, interesting, or just want to keep an eye on it? **A star helps more than you'd think** — it's the easiest way to tell me it's worth finishing well.
 
 ## 📄 License
 
